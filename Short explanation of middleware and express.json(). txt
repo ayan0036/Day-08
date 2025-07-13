@@ -1,0 +1,21 @@
+Q:What is Middleware in Express.js? 
+ANS;Middleware is a function in Express.js that has access to the request, response, and next() function. 
+It runs between the incoming request and final response, and can: 
+
+1-Modify the request or response. 
+
+2-Log details. 
+
+3-Authenticate users. 
+
+4-Handle errors. 
+
+5-Or call next() to pass control to the next middleware. 
+
+
+Q:What is express.json()? 
+ANS:express.json() is a built-in middleware in Express.js that parses incoming JSON payloads (data sent in the body of a request). 
+
+1-It adds the parsed data to req.body. 
+
+2-Used mainly in POST or PUT requests where client sends JSON.
